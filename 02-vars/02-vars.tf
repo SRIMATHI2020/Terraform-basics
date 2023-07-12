@@ -9,6 +9,6 @@ output "sample-op" {
 ### variable can be called as var.variableName. but if access between set of strings it should be in quotes 
 ### In terraform , no singlr quotes
 
-output "sample-var-op"{
+output "sample-var-op" {
     value = " value of the variable is ${var.sample-op}"
 }
