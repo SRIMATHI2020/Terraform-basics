@@ -6,6 +6,10 @@ output "sample_output" {
     value = var.sample
 }
 
+ variable "sample_op" {
+        default = "Welcome to terraform training"
+}
+
 ### variable can be called as var.variableName. but if access between set of strings it should be in quotes 
 ### In terraform , no singlr quotes
 
