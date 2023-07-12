@@ -10,5 +10,5 @@ output "sample-op" {
 ### In terraform , no singlr quotes
 
 output "sample-var-op" {
-    value = " value of the variable is ${var.sample-op}"
+    value = " Value of the variable is ${var.sample-op}"
 }
