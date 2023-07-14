@@ -14,7 +14,7 @@ output "state_name" {
 
 variable "coldcity" {}
 
-output "city_name" {
+output "cold_city" {
     value = "Value of the cold city is ${var.coldcity}"
 }
 
