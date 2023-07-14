@@ -1,5 +1,5 @@
 city    = "Bangalore"
-cold_city= "OOty"
+coldcity= "OOty"
 
 
 # You can declare all the values or the default values in a file that ends with terraform.tfvars
