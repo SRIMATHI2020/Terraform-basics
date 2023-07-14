@@ -14,5 +14,5 @@ output "state_name" {
 variable "cold_city" {}
 
 output "cold_city_output" {
-    value = " cold city value is ${var.cold_city} "
+    value = " cold city value is ${var.coldcity} "
 }
